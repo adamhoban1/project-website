@@ -1,0 +1,123 @@
+nav ul li {
+    list-style-type: none;
+    background-color: #b2b2b2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 240px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: gray;
+    padding: 5px;
+}
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Georgia, serif;
+}
+
+header{
+    background-color: black ;
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: gray;
+}
+footer p {
+    text-align: center;
+    color: white;
+}
+body {
+    font-family: Verdana; margin: 0;
+    background-color: #000000;
+}
+
+h1{
+    text-align: left;
+    color: white;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.buymenu h3{
+    text-align: center;
+}
+.buymenu p{
+    font-size:45 px;
+}
+article{
+    color: white;
+}
+#active{
+    border-color: rgba(179, 12, 12, 0.747);
+    background-color: red;
+}
+#logo{
+    float:left; 
+    margin-right:10px; 
+    width: 7em;
+    height: 8em;
+}
+
+.homeImage{
+    display: inline-block;
+    flex: 1; 
+    object-fit: cover;
+    margin: 2px;
+    height: 27em;
+}
+.buymenu {
+    display: flex;
+    justify-content: left;
+    max-width: 100%;
+    flex-basis: 40%;
+    font-size: 16px;
+    padding-left: 20px;
+    color: white;
+}
+.popular {
+    color: white;
+    column-count: 5;
+    column-rule: 1px solid white;
+    column-gap: 5px;
+    padding: 2px;
+}
+.itemSale {
+    color: white;
+    column-count: 4;
+    column-rule: 1px solid white;
+    column-gap: 7px;
+    padding: 2px;
+    border: 1px solid white;
+}
+aside{
+    border: .5px solid yellow;
+    width: 18.5%;
+    float: left;
+    color: white;
+    }
+aside ul li a {
+        color: blue;
+        text-decoration: none;
+    }
+aside ul li {list-style-type: none; }
+#content{
+    float: right;
+    width: 80%;
+    border: 1px solid grey;
+}
+
