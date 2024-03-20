@@ -49,6 +49,13 @@ h1{
 }
 h2{
     color: white;
+    text-align: center;
+}
+.buymenu h3{
+    text-align: center;
+}
+.buymenu p{
+    font-size:45 px;
 }
 article{
     color: white;
@@ -71,12 +78,44 @@ article{
     margin: 2px;
     height: 27em;
 }
-.event {
+.buymenu {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     max-width: 100%;
     flex-basis: 40%;
     font-size: 16px;
     padding-left: 20px;
+    color: white;
+}
+.popular {
+    color: white;
+    column-count: 5;
+    column-rule: 1px solid white;
+    column-gap: 5px;
+    padding: 2px;
+}
+.itemSale {
+    color: white;
+    column-count: 4;
+    column-rule: 1px solid white;
+    column-gap: 7px;
+    padding: 2px;
+    border: 1px solid white;
+}
+aside{
+    border: .5px solid yellow;
+    width: 18.5%;
+    float: left;
+    color: white;
+    }
+aside ul li a {
+        color: blue;
+        text-decoration: none;
+    }
+aside ul li {list-style-type: none; }
+#content{
+    float: right;
+    width: 80%;
+    border: 1px solid grey;
 }
 
