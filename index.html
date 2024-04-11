@@ -7,6 +7,7 @@
         <meta charset="X-AUA-Compatible" context="ie=edge">
         <title> gym shop website || home</title>
         <link rel="stylesheet" href="CSSFormat/mainStyles.css">
+        <link rel="icon" href="WebsiteImages/gym favicon.webp" type="image/gif" sizes="16x16">
     </head>
     <body>
         <header>
@@ -20,6 +21,11 @@
                 <li> <a href="supplement.html"> sport supplements </a></li> 
                 <li> <a href="apeal.html"> appeal </a></li> 
                 <li> <a href="accessories.html"> Accessories </a></li> 
+
+                <section class="accountBook">
+                    <li>  <button onclick="myFunction()">Toggle dark mode</button> </li>
+                <li> <a href="accessories.html"> <img style="border-radius: 50%;" src="WebsiteImages/blank account picture.png" alt="image of a gym" width="100%" height="70px">  </a></li> 
+            </section>
             </ul>
         </nav>
         
@@ -65,5 +71,11 @@
         <footer>
             <p> &copy; this is a collage project</p>
         </footer>
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script>
     </body>
 </html>

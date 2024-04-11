@@ -23,9 +23,12 @@ nav ul{
 }
 
 header{
-    background-color: black ;
     padding: 10px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(outdoortoys);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 footer {
@@ -71,6 +74,7 @@ article{
     margin-right:10px; 
     width: 7em;
     height: 8em;
+    border-radius: 40%;
 }
 
 .homeImage{
@@ -120,5 +124,13 @@ aside ul li {list-style-type: none; }
     width: 80%;
     border: 1px solid grey;
 }
+.accountBook{
+    float: right;
+    border-radius: 50%;
+}
+.dark-mode {
+    background-color: white;
+    color: black;
+  }
 
 
